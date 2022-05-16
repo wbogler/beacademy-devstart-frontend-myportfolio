@@ -42,7 +42,7 @@ header {
   /* Section Hero */
   
   .s-hero {
-    background: url(../img/s-hero-bg.jpg);
+    background: url(../img/binary-code.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -199,4 +199,5 @@ header {
     line-height: 2.4rem;
     padding: 5.2rem 0;
   }
+
   
