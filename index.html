@@ -1,149 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&family=Poppins:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/pattern.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <title>be.academy | My Portfolio</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portifólio</title>
+</head>
+<body>
     <header>
-      <div class="container">
-        <div class="logo">
-          <img src="./assets/img/be-logo.svg" alt="Logo be.academy" />
-        </div>
-
         <nav>
-          <ul class="menu">
-            <li><a href="#about" class="menu-item">QUEM SOU</a></li>
-            <li><a href="#cases" class="menu-item">CASES</a></li>
-          </ul>
-          <a href="#contact" class="btn-primary"
-            ><span>😃 PEÇA UM ORÇAMENTO</span></a
-          >
-          <ul class="menu-social">
-            <li>
-              <a href="https://www.linkedin.com/in/willian-bogler-b82876185/" target="_blank">
-                <img src="./assets/img/icon-linkedin.svg" alt="Meu Linkedin"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/willianbogler/" target="_blank">
-                <img
-                  src="./assets/img/icon-instagram.svg"
-                  alt="Meu Instagram"
-                />
-              </a>
-            </li>
-          </ul>
+            <div class="container-nav">
+                <div class="logo">
+                    <img src="./assets/img/Bogler.svg" alt="Logo sobrenome" class="logo">
+                </div>
+                <div class="navegador">
+                    <ul>
+                        <li>Orçamento</li>
+                        <a href="#art1"><li>Quem é o Willian?</li></a>
+                        <a href="#cases"><li>Cases</li></a>
+                        <a href="#contato-get"><li>Contato</li></a>
+                    </ul>
+                </div>
+
+            </div>
         </nav>
-      </div>
     </header>
-    <main>
-      <section class="s-hero">
-        <div class="container">
-          <div class="title-box">
-            <h1>
-              Olá! Eu sou <br />
-              <span>Willian Bogler</span>
-            </h1>
-            <h2>Desenvolvedor Front-End</h2>
-            <p>
-              Tenho como responsabilidade realizar sonhos, transformando seu
-              projeto em uma obra de arte.
-            </p>
-
-            <div class="techs">
-              <a href="">
-                <img src="./assets/img/html.svg" alt="Techs - HTML" />
-              </a>
-              <a href="">
-                <img src="./assets/img/css.svg" alt="Techs - CSS" />
-              </a>
-              <a href="">
-                <img
-                  src="./assets/img/javascript.svg"
-                  alt="Techs - Javascript"
-                />
-              </a>
-            </div>
-
-            <a href="https://github.com/wbogler" class="btn-primary empty"> Veja meus cases</a>
-          </div>
+    <div class="apresenta">
+        <div >
+            <h2>Bem vindo, me chamo</h2>
+            <h1>Willian Bogler</h1>
+            <h3>Programador front e back-end</h3>
+            <hr>
         </div>
-      </section>
-
-      <section class="s-success">
-        <div class="container">
-          <div class="title-success">
-            <span class="tag">#beDifferent</span>
-            <h2><span class="bold">Sucesso</span><br />Tem<br />Nome</h2>
-          </div>
-
-          <div class="cards">
-            <div class="card active">
-              <div class="card-title">
-                <h3>+30</h3>
-              </div>
-              <div class="card-info">
-                <p>
-                  Clientes <br />
-                  <strong>Atendidos</strong>
-                </p>
-              </div>
+        <div>
+            <div class="programador">
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img src="./assets/img/html.png" alt=""></a>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="./assets/img/css.jfif" alt=""></a>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img src="./assets/img/js.png" alt=""></a>
+                <a href="https://www.java.com/pt-BR/" target="_blank"><img src="./assets/img/java.png" alt=""></a>
+                <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="./assets/img/springboot.png" alt=""></a>
+                <a href="https://www.postgresql.org/" target="_blank"><img src="./assets/img/postGre.png" alt=""></a>
             </div>
-
-            <div class="card">
-              <div class="card-title">
-                <h3>+150</h3>
-              </div>
-              <div class="card-info">
-                <p>
-                  Páginas <br />
-                  <strong>Desenvolvidas</strong>
-                </p>
-              </div>
+            <div class="container-nav">
+                <div id="divimg">
+                    <img src="./assets/img/willian.jpg" alt="" id="img1">
+                </div>
+                <div class="glass">
+                    <article id="art1">
+                        Me chamo Willian Bogler e sou natural de Foz do Iguaçu, Paraná. Estou concluindo a faculdade de Análise e desenvolvimento de sistemas, mas já atuo como programador.
+                            Atualmente estou em desenvolvimento nas seguintes linguagens e tecnologias: spring boot; java; spring cloud; POstGreSQL; HTML e CSS.<br><br>Curiosidade:<br>
+                            Sou graduado em Gestão Ambiental e tenho mestrado em tecnologia ambiental, mas sempre fui um apaixonado pela computação e, portanto, resolvi migrar de carreira.
+                    </article>
+                </div>
             </div>
-
-            <div class="card">
-              <div class="card-title">
-                <h3>100%</h3>
-              </div>
-              <div class="card-info">
-                <p>
-                  De entregas <br />
-                  <strong>no prazo</strong>
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
-
-      <!-- Section About -->
-      <!-- Section Cases -->
-      <!-- Section Form (Contact) -->
-    </main>
-
-    <footer>
-      <div class="container">
-        <div class="copy">
-          <p>Uma nova experiência é a chave do sucesso</p>
+    </div>
+    
+    <div class="container-nav">
+        <div class="grau2">
+            <h2 id="cases">Cases</h2>
         </div>
-      </div>
-    </footer>
-  </body>
+
+        <div >
+            <div id="body2">
+                <input type="radio" name="position" checked />
+                <input type="radio" name="position" />
+                <input type="radio" name="position" />
+                <input type="radio" name="position" />
+                <main id="carousel">
+                  <div class="item" id="d11"></div>
+                  <div class="item" id="d12"><img src="./assets/img/copiaNetflix.PNG" alt="" id="img2"></div>
+                  <div class="item" id="d13"><img src="./assets/img/dsmovie.jfif" alt="" id="img2"></div>
+                  <div class="item" id="d14"><img src="./assets/img/entrelinhas.PNG" alt="" id="img2"></div>
+                  <main>
+                  </div>
+        </div>
+    </div>
+    <div class="container-nav" id="contato-get">
+        <div class="div-social">
+            <h2>Redes Sociais</h2>
+            <div class="redes-img">
+                <a href="https://github.com/wbogler" target="_blank"><img src="./assets/img/github.png" alt=""></a>
+                <a href="https://www.instagram.com/willianbogler/" target="_blank"><img src="./assets/img/instagram.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/willian-bogler-b82876185/" target="_blank"><img src="./assets/img/linkedin.webp" alt=""></a>
+                <a href="https://www.facebook.com/willian.bogler/" target="_blank"><img src="./assets/img/facebook.png" alt=""></a>
+            </div>
+        </div>
+        <div class="div-form">
+            <form action="" method="get">
+                <fieldset name="contato">
+                    <legend>Contato</legend>
+    
+                    <label for="nome-contato" id="nome">Nome:</label>
+                    <input type="text" name="nome-contato" id="nome-contato">
+                    <br>
+                    <br>
+    
+                    <label for="email" id="email2">E-mail:</label>
+                    <input type="text" name="email" id="email">
+                    <br>
+                    <br>
+    
+                    <label for="mensagem-contato">Deixe sua mensagem:</label>
+                    <textarea name="" id="mensagem-contato" cols="30" rows="10"></textarea>
+                </fieldset>
+            </form>
+            <div class="div-buttom">
+                <button class="botao">Enviar</button>
+            </div>
+        </div>
+
+    </div>
+</body>
 </html>
